@@ -41,5 +41,5 @@ document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function
 
 ## Target
 
-- [X] 开发 `dragAndMove` 拖拽翻页拓展插件 
+- [X] 开发 `dragAndMove` 拖拽翻页拓展插件 `fullpage.extensions.dragAndMove.min.js`
 - [ ] 消除版权报错提示
