@@ -4,10 +4,14 @@ A fullpage.js v3 plugin deved for WUED
 
 ## Getting Start
 
+import in your html:
+
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wued-fullPage/3.0.5/fullpage.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wued-fullPage/3.0.5/fullpage.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
 ```
+
+awesome code:
 
 ```js
 new fullpage('#fullpage', {
