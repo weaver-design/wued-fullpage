@@ -16,6 +16,13 @@ new WUED.fullpage('#fullpage', {
   dragAndMove: true,
   ...
 })
+// 为 fullpage.js 新增拖拽效果
+document.querySelector('.section.active').addEventListener('mousedown', function(e) {
+  fullpage_api.dragAndMove = e.clientY;
+})
+document.querySelector('.section.active').addEventListener('mouseup', function(e) {
+  fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown : fullpage_api.moveSectionUp;
+})
 ```
 
 ## Target
