@@ -1,6 +1,8 @@
 # wued-fullpage
 
-A fullpage deved for WUED
+A fullpage v3 plugin deved for WUED
+
+## Getting Start
 
 ```js
 new WUED.fullpage('#fullpage', {
@@ -11,4 +13,8 @@ new WUED.fullpage('#fullpage', {
 })
 ```
 
+## Target
+
+- [] 消除版权报错提示
+- [] 开发 `dragAndMove` 拖拽翻页拓展插件 
 
