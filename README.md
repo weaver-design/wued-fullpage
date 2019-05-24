@@ -15,6 +15,6 @@ new WUED.fullpage('#fullpage', {
 
 ## Target
 
-- [] 开发 `dragAndMove` 拖拽翻页拓展插件 
+- [X] 开发 `dragAndMove` 拖拽翻页拓展插件 
 - [ ] 消除版权报错提示
 
