@@ -29,14 +29,14 @@ new fullpage('#fullpage', {
   menu: '#myMenu',
   dragAndMove: true,
   ...
-})
+});
 // Added drag and move for fullpage.js
 document.querySelector('.fullpage-wrapper').addEventListener('mousedown', function(e) {
     fullpage_api.dragAndMove = e.clientY;
-})
+});
 document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function(e) {
     fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown() : fullpage_api.moveSectionUp();
-})
+});
 ```
 
 ## Target
