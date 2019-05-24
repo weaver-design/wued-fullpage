@@ -20,7 +20,7 @@ new fullpage('#fullpage', {
   dragAndMove: true,
   ...
 })
-// 为 fullpage.js 新增拖拽效果
+// Added drag and move for fullpage.js
 document.querySelector('.fullpage-wrapper').addEventListener('mousedown', function(e) {
     fullpage_api.dragAndMove = e.clientY;
 })
