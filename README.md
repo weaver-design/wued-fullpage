@@ -1,4 +1,4 @@
-# wued-fullpage
+# WUED Fullpage
 
 A fullpage v3 plugin deved for WUED
 
