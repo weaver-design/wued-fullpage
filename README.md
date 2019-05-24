@@ -1,6 +1,6 @@
 # WUED Fullpage
 
-A fullpage.js v3 plugin deved for WUED
+A [fullpage.js v3](https://github.com/alvarotrigo/fullPage.js) plugin deved for WUED
 
 ## Getting Start
 
