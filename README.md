@@ -14,10 +14,10 @@ Write the strut in html:
 
 ```html
 <div id="fullpage">
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
+  <div class="section">Some section</div>
+  <div class="section">Some section</div>
+  <div class="section">Some section</div>
+  <div class="section">Some section</div>
 </div>
 ```
 
