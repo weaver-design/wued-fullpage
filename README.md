@@ -26,8 +26,6 @@ Awesome coding:
 ```js
 new fullpage('#fullpage', {
   anchors: ['page1', 'page2', 'page3'],
-  menu: '#myMenu',
-  dragAndMove: true,
   ...
 });
 // Added drag and move event for fullpage.js
