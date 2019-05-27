@@ -22,11 +22,26 @@
       anchors: ['page1', 'page2', 'page3'],
     });
     // Added drag and move for fullpage.js
+    var handleMouseMove = function(e) {
+      const currentHeight = -(fullpage_api.getActiveSection().index * document.querySelector('.section').offsetHeight);
+      const overHeight = e.clientY - fullpage_api.dragAndMove;
+      document.querySelector('.fullpage-wrapper').style.transform = `translate3d(0px, ${currentHeight + overHeight}px, 0px)`;
+    }
     document.querySelector('.fullpage-wrapper').addEventListener('mousedown', function (e) {
       fullpage_api.dragAndMove = e.clientY;
+      document.querySelector('.fullpage-wrapper').addEventListener('mousemove', handleMouseMove);
     });
     document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function (e) {
-      fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown() : fullpage_api.moveSectionUp();
+      document.querySelector('.fullpage-wrapper').removeEventListener('mousemove', handleMouseMove);
+      fullpage_api.getActiveSection().index == 0 
+      ? document.querySelector('.fullpage-wrapper').style.transform = `translate3d(0px, 0px, 0px)`
+      : '';
+      fullpage_api.getActiveSection().index == 2 
+      ? document.querySelector('.fullpage-wrapper').style.transform = `translate3d(0px, -1874px, 0px)`
+      : '';
+      fullpage_api.dragAndMove > e.clientY
+      ? fullpage_api.moveSectionDown() 
+      : fullpage_api.moveSectionUp();
     });
   </script>
 </body>
