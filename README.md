@@ -1,6 +1,6 @@
 # WUED Fullpage
 
-A [fullpage.js v3](https://github.com/alvarotrigo/fullPage.js) plugin deved for WUED
+How to drag and move in A [fullpage.js v3](https://github.com/alvarotrigo/fullPage.js) without any extensions ?
 
 ## Getting Start
 
