@@ -38,3 +38,9 @@ document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function
     fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown() : fullpage_api.moveSectionUp();
 });
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2019-present, WUED
