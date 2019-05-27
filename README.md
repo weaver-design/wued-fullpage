@@ -38,8 +38,3 @@ document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function
     fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown() : fullpage_api.moveSectionUp();
 });
 ```
-
-## Target
-
-- [X] 开发 `dragAndMove` 拖拽翻页拓展插件 `fullpage.extensions.dragAndMove.min.js`
-- [ ] 消除版权报错提示
