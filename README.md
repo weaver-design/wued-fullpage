@@ -26,8 +26,6 @@ Awesome coding:
 ```js
 new fullpage('#fullpage', {
   anchors: ['page1', 'page2', 'page3'],
-  menu: '#myMenu',
-  dragAndMove: true,
   ...
 });
 // Added drag and move event for fullpage.js
@@ -38,3 +36,9 @@ document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function
     fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown() : fullpage_api.moveSectionUp();
 });
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2019-present, WUED
