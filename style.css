@@ -1,0 +1,7 @@
+.section:nth-child(1) { background-color: #ff5f45 }
+.section:nth-child(2) { background-color: #0798ec }
+.section:nth-child(3) { background-color: #fc6c7c }
+
+#myMenu{ position: fixed; top: 50%; left: 20%; z-index: 9999; transform: translateY(0); }
+#myMenu>li{ font-size: 16px; line-height: 16px; }
+#myMenu .active{ font-size: 28px; line-height: 28px; transition: all ease-in-out 0.6s; }

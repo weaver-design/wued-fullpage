@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul id="myMenu">
+    <li data-menuanchor="page1" class="active"><a href="#page1">menu1</a></li>
+    <li data-menuanchor="page2"><a href="#page2">menu2</a></li>
+    <li data-menuanchor="page3"><a href="#page3">menu3</a></li>
+  </ul>
+  <div id="fullpage">
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
+  <script>
+    new fullpage('#fullpage', {
+      anchors: ['page1', 'page2', 'page3'],
+      menu: '#myMenu',
+    });
+    // Added drag and move for fullpage.js
+    document.querySelector('.fullpage-wrapper').addEventListener('mousedown', function (e) {
+      fullpage_api.dragAndMove = e.clientY;
+    });
+    document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function (e) {
+      fullpage_api.dragAndMove > e.clientY ? fullpage_api.moveSectionDown() : fullpage_api.moveSectionUp();
+    });
+  </script>
+</body>
+
+</html>
