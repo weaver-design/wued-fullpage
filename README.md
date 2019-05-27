@@ -1,6 +1,6 @@
 # WUED Fullpage
 
-How to drag and move in [fullpage.js v3](https://github.com/alvarotrigo/fullPage.js) without any extensions ? [试一试](https://weaver-design.github.io/wued-fullpage/.)
+How to drag and move in [fullpage.js v3](https://github.com/alvarotrigo/fullPage.js) without any extensions ? [Preview](https://weaver-design.github.io/wued-fullpage/.)
 
 ## Getting Start
 
