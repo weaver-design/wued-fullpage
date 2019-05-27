@@ -30,7 +30,7 @@ new fullpage('#fullpage', {
   dragAndMove: true,
   ...
 });
-// Added drag and move for fullpage.js
+// Added drag and move event for fullpage.js
 document.querySelector('.fullpage-wrapper').addEventListener('mousedown', function(e) {
     fullpage_api.dragAndMove = e.clientY;
 });
