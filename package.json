@@ -1,0 +1,19 @@
+{
+  "name": "wued-fullpage",
+  "version": "1.0.0",
+  "description": "How to drag and move in [fullpage.js v3](https://github.com/alvarotrigo/fullPage.js) without any extensions ? [Preview](https://weaver-design.github.io/wued-fullpage/.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaver-design/wued-fullpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaver-design/wued-fullpage/issues"
+  },
+  "homepage": "https://github.com/weaver-design/wued-fullpage#readme"
+}
