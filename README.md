@@ -42,5 +42,3 @@ document.querySelector('.fullpage-wrapper').addEventListener('mouseup', function
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2019-present, WUED
-
-test
